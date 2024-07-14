@@ -37,11 +37,15 @@ int maximumGain( char* s, int x, int y ) {
 int main () {
     char s1[] = "cdbcbbaaabab";
     int x1 = 4, y1 = 5;
-    printf( "Output for s1: %d\n", maximumGain( s1, x1, y1 ) ); 
+    printf( "Output 1: %d\n", maximumGain( s1, x1, y1 ) ); 
     
     char s2[] = "aabbaaxybbaabb";
     int x2 = 5, y2 = 4;
-    printf( "Output for s2: %d\n", maximumGain( s2, x2, y2 ) );
+    printf( "Output 2: %d\n", maximumGain( s2, x2, y2 ) );
+
+    char s3[] = "bbaaxybbabaabba";
+    int x3 = 5, y3 = 4;
+    printf( "Output 3: %d\n", maximumGain( s3, x3, y3 ) );
     
     return 0;
 }
